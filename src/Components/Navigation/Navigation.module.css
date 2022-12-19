@@ -72,6 +72,8 @@
         text-transform: capitalize;
         cursor: pointer;
         font-weight: 600;
+        grid-row-gap:12px;
+        grid-column-gap:20px
 
     }
 
@@ -82,6 +84,8 @@
         border-radius: 10px;
         box-shadow: 2px 2px 16px rgb(224, 222, 222);
         margin-top: 5px;
+        display: inline;
+        width:60px;
     }
 
     .Navigation__resume a {
@@ -105,6 +109,7 @@
         position: -webkit-sticky; /* Safari */
         /* position: sticky; */
         top: 0;
+      
 
     }
 
@@ -113,7 +118,7 @@
         margin: auto;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         padding: 25px;
         text-transform: capitalize;
@@ -131,6 +136,8 @@
         border-radius: 10px;
         box-shadow: 2px 2px 16px rgb(224, 222, 222);
         margin-top: 5px;
+        display:inline;
+        width:60px;
     }
 
     .Navigation__resume a {
@@ -139,7 +146,6 @@
     }
 
 }
-
 
 /* @media all and (min-width:1024px) {
 }
