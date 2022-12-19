@@ -1,0 +1,36 @@
+.Contact{
+    /* margin: 100px auto; */
+    text-align: center;
+    background: #EEEEEE;
+    height: 90vh;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+@media (max-width: 600px) {
+    .Contact{
+        border: 1px solid black;
+        max-width: 100% !important;
+        justify-content: center;
+        
+    }
+    .ContactSectionDiv{
+        width: 90%;
+        margin: auto !important;
+    }
+}
+.ContactSection{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.ContactSectionDiv{
+    max-width: 500px;
+    margin: 100px auto;
+    margin-left: 40%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,23 @@
+.Education h1{
+    margin: 100px 0px;
+
+}
+@media (max-width: 600px) {
+    .Education{
+        /* border: 1px solid black; */
+        max-width: 80% !important;
+        /* justify-content: center; */
+    }
+}
+.Education a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.Education__showcase{
+    /* box-shadow: 2px 2px 16px grey; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}

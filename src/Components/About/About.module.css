@@ -1,0 +1,25 @@
+.About{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .About{
+        /* border: 1px solid black; */
+        max-width: 82% !important;
+        justify-content: center;
+    }
+}
+
+.About__header{
+    text-align: center;
+}
+
+.About__content p{
+    word-spacing: 15px;
+    font-size: 20px;
+    max-width: 70%;
+    margin: auto;
+}

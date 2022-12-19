@@ -1,0 +1,42 @@
+
+#statistics{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 1px red solid; */
+    gap: 40px;
+    margin: auto;
+    justify-content: space-around;
+
+
+}
+
+.individualStat{
+    /* width:50%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    border-radius:15%;
+    text-align: center;
+/* border: 1px red solid; */
+}
+
+
+@media  screen and (max-width:1024px) {
+    #statistics{
+        
+     
+        grid-template-columns: repeat(2,1fr);
+        /* border: 1px red solid; */
+       
+    
+    
+    }
+    
+}
+
+@media  screen and (max-width:600px) {
+    #statistics{
+        grid-template-columns: repeat(1,1fr);
+        /* border: 1px red solid; */
+    }
+}

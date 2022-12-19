@@ -1,0 +1,28 @@
+.section{    
+  max-width: 1200px;
+  padding: 20px 50px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 40vh;
+  display: grid;
+  place-items: center;
+}
+
+.heading{
+   /* border: 1px solid black; */
+   font-size: 32px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:600px) {
+   .activeTab{
+       padding: 5px 0px !important;
+   }
+}
+
+.activeTab{
+  background-color: #212121;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
+}

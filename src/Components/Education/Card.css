@@ -1,0 +1,29 @@
+.Card{
+    box-shadow: 2px 2px 16px grey;
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+    height: 170px;
+    transition:all 400ms;
+  
+}
+/* .Card p{
+    font-weight: 400;
+} */
+
+
+@media (max-width: 600px) {
+    .Card{
+       
+        max-width: 80% !important;
+        justify-content: center;
+    }
+}
+.Card:hover{
+    transform:scale(1.03);
+}
+.Card img{
+    height: 200px;
+    width: 100%;
+  margin: auto;
+}

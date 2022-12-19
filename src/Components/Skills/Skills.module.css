@@ -1,0 +1,145 @@
+
+
+@media all and (min-width:1024px) {
+    
+.Skills{
+    margin-top: 100px;
+    width: 90%;
+    background-color: #172774;
+    padding: 20px 0px 50px;
+    margin: auto;
+    
+}
+.ChildSkills{
+    max-width: 1200px;
+    margin: auto;
+}
+.Skills h1{
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    /* padding-top:100px ; */
+    
+}
+
+.Skills__icon__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.Skill__icon{
+    width: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.Img_div > img{
+    width: 100%;
+    border-radius: 10px;
+}
+figcaption{
+    color: white;
+}
+
+}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+
+    
+.Skills{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    width: 100%;
+    /* margin: auto; */
+    background-color: #172774;
+    padding: 20px 0px 50px;
+    
+}
+.ChildSkills{
+    max-width: 1200px;
+    margin: auto;
+}
+.Skills h1{
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+  
+    
+}
+
+.Skills__icon__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.Skill__icon{
+    width: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.Img_div > img{
+    width: 100%;
+    border-radius: 10px;
+}
+figcaption{
+    color: white;
+}
+}
+
+
+@media all and (max-width:767px) {
+
+    
+.Skills{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #172774;
+    padding: 20px 0px 50px;
+    
+}
+.ChildSkills{
+    max-width: 1200px;
+    margin: auto;
+}
+.Skills h1{
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    /* padding-top:100px ; */
+    
+}
+
+.Skills__icon__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.Skill__icon{
+    width: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.Img_div > img{
+    width: 100%;
+    border-radius: 10px;
+}
+figcaption{
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
