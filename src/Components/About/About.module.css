@@ -16,10 +16,29 @@
 .About__header{
     text-align: center;
 }
+.About__content{
+    text-align: center;
+}
 
 .About__content p{
     word-spacing: 15px;
     font-size: 20px;
     max-width: 70%;
     margin: auto;
+}
+#butt{
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 7px;
+    color: whitesmoke;
+    text-decoration: none;
+    /* word-spacing: 15px; */
+    font-size: 22px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: teal;
+   
+}
+#a{
+    color: whitesmoke;
 }

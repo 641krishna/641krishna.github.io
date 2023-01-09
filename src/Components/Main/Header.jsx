@@ -16,6 +16,8 @@ function Header() {
 
 
   return (
+
+    <section id="head">
     <div>
     <div className={`${Styles.Header}`}>
       <div className={Styles.Header__pic}>
@@ -33,6 +35,7 @@ function Header() {
       </div>
     </div>
     </div>
+    </section>
   );
 }
 

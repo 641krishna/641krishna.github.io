@@ -9,8 +9,8 @@ const projectObj = [
     title: "Lovoda.com",
     description:
       "An Ecommerce web application to buy health and fitness products.",
-    tech:"Tech Stack :",
-    used:"HTML | CSS | JavaScript | Local Storage",
+    tech: "Tech Stack :",
+    used: "HTML | CSS | JavaScript | Local Storage",
     github: "https://github.com/sanajitjana/impolite-thunder-2431",
     blog: "https://lovoda.com/",
   },
@@ -18,8 +18,8 @@ const projectObj = [
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAA6lBMVEX////R6eP/O3h2a43O6OHg3eYCAEb8+/2DeZdxZYklAFTX8OhEM2e3scPGwtAoAFb2+/mVjaZaSniMhJ0RAEvw7vIKAEjn5evTz9vi8e3Z1t++ucgWAEwNAEn/LXEAAEFnW4D/S4KhmrBlYoT/HmsxE1za7eiwqrwqBldfUHtSQXL/5+7/d53/4en/8vb/l7M3HmAAADw9KGL/gaT/jq2xwcaPl6h3eZP/tcn/y9m+0dL/qb//09+oobZLOGw8L2Wir7mEip4zGV1tbIquvsSKkaNcV3zF2tj/XIz/aJX/RH7/AGD/w9P/pr7o5XHvAAAI80lEQVR4nO2cC1uiXBDHURMMvCQCmiKpC3mpjKW7W2qXN2u3/f5f5z2H60FBwXKxml/PY4ECx78zc2bmYBQFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmy55H0UD4Fe/uHqdSOj1TqcB/UW8LefmoH/QSxk9pPenTbymGwYq5yIFwA+zvLVQPhgthfKRrW7XDuqEaum8hot4VIqmF8R+V265V+QiPeBiKrtkPqVuPRwze2t72oqvntTRPxI8skNeykiSEayuKco7oV81chl9i4k+Uwlmw7durLyPbhejWxkSdJLBfFWIflCvbx9UFiQ0+SmKKlrIKhqrsn2C0mNvbk2I8tm+mmfN09Q6eX3OgTI7ZqprnVWu4JCv3yXXLDT4j4xpbC0U0XnRMUDYrqfbskZB3VUnt3Zef4Opas8d2SkNjTqMmh5hxfZU2zG2eTewtJsJaPco8N+3CRtZK27DdLQtZRLTWa2EczJWc+zZhJyLdJfNcytvyFXSkYbsYm4iQk87MecpkvxjqhjZv+4KyG5aDgnanTqZca4iTkOl+MdUIbV5pZhUKrQ5yJOeiLRMW1OZjVyU6El7yPNWTj7u85s82bqxAnqmmmYExIwVDpkRJTrbHrzXdje3qpjZ2kJjcmxa8OeE+FRksTZCPnzNsZ3mXg9P2qOUMWtFaD2iArll2CmJU4s3vU2SXOkxvY6a+X0JGIco8ltyes5khRPrA1Kh44yd+uTPbwWqy7JQ5oujfIyxJtv3RAC4LA9mT0eGB/LhVakvMDVpLGIrUx4vWMTGP7MUWypagu752lznotXi1otB35QSa7wHmNdZrpZdqRjXZlY1kvfS42NacGEVlhgK2UuZOFlrUHwVSkBoN/m3syTbaL/6rlZXZzusWX7WKMVeOKee8klTwxwGIr4DIsW6V1YjuvGYLt4oGyabSbyjz0XNkGsmPgVVbwnL5Cex2YO8n92FoyMcQPJrZs3GSEH590143qJX8hP1gsGLp0mdol3hyVl+usvR0oG8866XNH4PWSda2G5M3TNUlwB0DIxsiSlwLpzY3NT3FjGzd9RMbGjUreoI05X6gaC1fRmyJVo4lCIi8wNVo2LSpINqmmS1ZIFwU6q9kX6zeJMN8XXE0I2QpSy3tJQSDiCMnwbBgiR1Riz6S9GXqYsTP7+KzeWThnZn4SK9IZ9DimPUPICyLVkQwsR5BsdL0oWVVvBvkya8nGsDLxAXWbGedPQracRBiYKMhUIMdK+ihckijETHe5q0sc2Uojzjq8bASUUww7t2NAY79t0O4bNWWjWgIOVYGy1ZA14Sm5TqNZ1JZNFMjoWJPcBVpCtpZElil6M7DYQ6qlfy8TJQLxbG2m40ftiTOXr6oBpobp+HfXaesd9rw4b8rG6FInVLYqjV8yxtaztmxGkGzDM6SackbsOAnTZgmxvJR7fkLGNkEZCK4SyqFLVrQv3KFQZf7uNt382JSNygromRDZqArKMboSjoeBTlqQ3ByFkC1DOikjCwFjO0eqpRUvuB0pSpg2S4jlpRc8l+L62E/3kakFJraU2O1rZVI2kdaaBxi5JzsTiSUb8luWCZONYpsNzfRuWzaKF4ig2WoGTQldO58zaTSDpoRTVVHbt87W8FRNqxs2N04boWz3Hke3vY4W1Jisl/WfnbmZtSLzLYuB7HivLRtVafJlKUS2hiBbWa8jW6HpzdFZWg5MQCTCS8eSJzNRdRydvt16GyoyvV/LFQomumqXVxx3ZSUgxqKpMcVMCU2ihcrcbsGdIaqS0xR2ZKN4VpNDZEPPWVWVIxs1kZ1JRdSbweluR3hwPrWc4KS7R8ft9FvIu0fzg3od8txSorspm+L+e8aq/fcwb2rVu4FRsT7ouYjXkTyFW45lubIxvXDZsj+tesyVrcrK1jJjQyOdkZSN6ss908ayfcFuPFMnCgpnYdowx+3TUGmWEtFNcfIxHaDgNptc+e9zq1UM/s4Vq+6PKL0Dz2lrtJ3nTyRnZ12SF0v5A2sOsasPr5SvGhJt9PkeTZNLPpUDcnk7Q0slvm/QdN4e0RGeA9LqTQxFohGtwhrp3NRIcdyldsF5t1UyjV0t0/D1t1o1YqOhke+wr1nP8a4rUV3NjkBFzXHvnOZrEhuGd/oCzzYFLeN7vqz57gqoZXqCxPbdGeMEh6/2OmF/FZGMrX8xKiFTGz+mOOfuGeSaD+WFPrioze/5SBhxdWPDaYdYtNPqmn64igiqPT3P5Bl3Wbrg7Hu1apUe3w3M3LZskf5a+XgHtdhbLZsxYmemqaG/95jCrpwphraeP8mdgu8f5SrdUPIxGU3ZJw4xus8bi65Jsq2L9EenZ14igtKSsKwkOqt008bTZ2xqT1fINVdGl/xWLpi+pRVFfbFtjHlV1qsP/CzVjbti++OL1OWz9jiN8n2Y7jbeB21mIkrb3rpV/RX9uizTbSRr4/vB5H6EfDS1+lRUZ/PrftE4IhqSuIhXXh0Du1bf3z4yCdeNQ3WOfjUdmdSzK7nTt2NOuE23Va/gRNZGZCLDY1W9DTooNuFl1iPmh0kmAnfbodovFZcHnjZvf3xF++3ZRw0z1NxcPuhC/4IbXyzDvHcJIZTlSzIL37naatrY1jZUH8yz9GtEn+vLuGdKWlmrJ7QOoRPDp/ta5M0f5WNifjSCDO5Tfnv5zbesd338uqna1Ib88veOqdnncs8gjhWUfyy2v0/O2ucfN1OY/2rA5Iv8fwG8zJdWF6qC4W8UAD8k6/2SMGYKd2rZ1ckv1+r+4srhOLFhbR/Dv69k8vGaVl7shgfzorh5yTUytpd/PbRt5kZRyGWXmz+uTeEuuVs7+PNhwFx4IbaJdXhVUV6czev0v0xSth4GB60QRYbXr+9vUH5RFFWFGTI+w5OjjVXuABDOeRoMLz5/1TRkGbE5xXfOwNQZk3NcV7W3o03/aWCOzRr+nXeGfzvwcmg6veFG29eDaau/oX5ag2sQDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAL8n/p1fAnknxzMQAAAAASUVORK5CYII=",
     title: "Animoto.com",
     description: "Online web application for booking Hotels and Homes .",
-    tech:"Tech Stack :",
-    used:"React JS | CSS | Chakra UI",
+    tech: "Tech Stack :",
+    used: "React JS | CSS | Chakra UI",
     github: "https://github.com/641krishna/cheerful-notebook-6741/tree/main/cheerful",
     blog: " https://clone-animoto.netlify.app/",
   },
@@ -27,8 +27,8 @@ const projectObj = [
     img: "https://camo.githubusercontent.com/b02ebe61391a41c08f2a12e9c93e1c2f8d028bcd3aa4cc2827492199323dae23/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3738362f312a35343463527a52516b64792d7468326543386c5870412e6a706567",
     title: "Travocity.com",
     description: "Online web application for booking Hotels, Cars & Flights.",
-    tech:"Tech Stack :",
-    used:"React JS | CSS | Chakra UI | Node.js | Express",
+    tech: "Tech Stack :",
+    used: "React JS | CSS | Chakra UI | Node.js | Express",
     github: "https://github.com/641krishna/-descriptive-payment-4603",
     blog: "https://thriving-hamster-345ef4.netlify.app/",
   },
@@ -36,27 +36,32 @@ const projectObj = [
     img: "https://user-images.githubusercontent.com/105920461/181870012-746251fc-980d-4f4e-9f18-061683fc637b.png",
     title: "Banggood.com",
     description: "Online E-Commerce application .",
-    tech:"Tech Stack :",
-    used:"HTML | CSS | JavaScript | Local Storage",
+    tech: "Tech Stack :",
+    used: "HTML | CSS | JavaScript | Local Storage",
     github: "https://github.com/brahmandeepak/7supremacy-masai",
     blog: "https://admirable-shortbread-cc3902.netlify.app/",
   },
 ];
 
 function Projects() {
+
+
+
   return (
-    <div className={`${Styles.Project} section`}>
-      <div>
-        <h1 className="heading">Projects</h1>
-      </div>
-      <div className={Styles.Project__showcase}>
-        {projectObj.map((proj) => (
-         
+    <section id="projects">
+      <div className={`${Styles.Project} section`}>
+        <div>
+          <h1 className="heading">Projects</h1>
+        </div>
+        <div className={Styles.Project__showcase}>
+          {projectObj.map((proj) => (
+
             <Card key={proj.title} {...proj} tech={proj.tech} used={proj.used} />
-        
-        ))}
+
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -21,6 +21,7 @@
 .ContactSection{
     display: flex;
     gap: 30px;
+    align-items: center;
     
 }
 
@@ -33,4 +34,12 @@
 a{
     text-decoration: none;
     color: black;
+    font-weight: 550;
+}
+a:hover{
+    color: #2C3E50;
+}
+#icon{
+    width: 20px;
+    height: 20px;
 }

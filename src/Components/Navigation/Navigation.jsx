@@ -5,9 +5,14 @@ function Navigation({ Link, router }) {
   return (
     <div>
       <div className={Styles.Navigation}>
+      
         <div className={Styles.Navigation__items}>
+      <input type="checkbox" id="checkbox_toggle" />
+        <label htmlFor="checkbox_toggle" className="hamburger">
+          &#9776;
+        </label>
           {router.map((item, i) => (
-            <div key={i}>
+            <div className="link" key={i}>
               <Link activeClass="activeTab" spy={true} smooth={true} to={item.to}>
                 {item.to}
               </Link>

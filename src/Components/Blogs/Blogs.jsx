@@ -35,18 +35,25 @@ const projectObj = [
 
 function Blogs() {
   return (
-    <div className={`${Styles.Project} section`}>
-      <div>
-        <h1 className="heading">Blogs</h1>
+
+    <section id="blogs">
+
+
+
+      <div className={`${Styles.Project} section`}>
+        <div>
+          <h1 className="heading">Blogs</h1>
+        </div>
+        <div className={Styles.Project__showcase}>
+          {projectObj.map((proj) => (
+            <a href={proj.blog} target="_blank">
+              <Card key={proj.title} {...proj} />
+            </a>
+          ))}
+        </div>
       </div>
-      <div className={Styles.Project__showcase}>
-        {projectObj.map((proj) => (
-          <a href={proj.blog} target="_blank">
-            <Card key={proj.title} {...proj} />
-          </a>
-        ))}
-      </div>
-    </div>
+
+    </section>
   );
 }
 

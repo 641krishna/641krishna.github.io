@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer';
 import Education from './Components/Education/Education';
 import Statistics from './Components/Statitics/statitics';
+import TopNavbar from './Components/nav trial/TopNavbar';
 import './App.css';
 
 import { Link, Element } from 'react-scroll'
@@ -51,7 +52,8 @@ const router = [
 function App() {
   return (
     <div className="App">
-       <Navigation Link={Link} router={router}/>
+       {/* <Navigation Link={Link} router={router}/> */}
+       <TopNavbar/>
        {router.map(item => (
          <Element name={item.to}>
            {item.component}

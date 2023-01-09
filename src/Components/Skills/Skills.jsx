@@ -28,31 +28,37 @@ const frontEndIcons = [
   { icon: express, caption: "Express" },
   { icon: mongodb, caption: "MongoDB" },
   // { icon: mysql, caption: "MySQL" },
-  // { icon: redis, caption: "Redis" },
-  // { icon: git, caption: "Git" },
+  { icon: redis, caption: "Redis" },
+  { icon: git, caption: "Git" },
   { icon: heroku, caption: "Heroku" },
 ];
 
 function Skills() {
   return (
-    <div className={`${Styles.Skills} `}>
-      <div className={`${Styles.ChildSkills} `}>
-        <div>
-          <h1 className="heading">Skills & Interest</h1>
-        </div>
-        <div className={Styles.Skills__icon__container}>
-          {frontEndIcons?.map((item) => (
-            <div className={Styles.Skill__icon} key={item.caption}>
-              <div className={Styles.Img_div}>
-                <img src={item.icon} alt={item.caption} />
-              </div>
 
-              <figcaption>{item.caption}</figcaption>
-            </div>
-          ))}
+    <section id="skills">
+
+
+      <div className={`${Styles.Skills} `}>
+        <div className={`${Styles.ChildSkills} `}>
+          <div>
+            <h1 className="heading">Skills & Interest</h1>
+          </div>
+          <div className={Styles.Skills__icon__container}>
+            {frontEndIcons?.map((item) => (
+              <div className={Styles.Skill__icon} key={item.caption}>
+                <div className={Styles.Img_div}>
+                  <img src={item.icon} alt={item.caption} />
+                </div>
+
+                <figcaption>{item.caption}</figcaption>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+
+    </section>
   );
 }
 
