@@ -11,11 +11,11 @@ const contactObj = [
         url: 'shrikrishnaaluri641@gmail.com'
     },
     {
-        Image:  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAY1BMVEUAAAD////n5+dERESnp6fx8fGMjIxkZGSxsbHW1tZWVlbr6+u0tLScnJwMDAz09PRJSUlbW1svLy/c3NyTk5MlJSXExMS9vb2Dg4NOTk4UFBTLy8s0NDQeHh5wcHA9PT17e3tX6h+iAAACu0lEQVR4nO2c23qCMAyAG1QUy0FEBOY8vP9TDty+TSChWEbKRf7L2ZVfWtI2pSoA0NFBOeEQ6fryCiCM3Qg0xGGjELoTaAhBaYf3oCHWKnJroGqBlWsFR4+CIAjvku9vfnm7fzgTqIoEnnhrNxL5BV5YOzDYb6BFcOQ2SKFLkPMaHJOeAlx4FYK+AcCJ02CLGUDCqXBGFaDkM8hxA87egLdD3RJ8D4VPKMAnm8KOUuCbYa7dK5TuG6Ifnb/Z8HXHHAnPDWc2A6UKXOHGqFChBprRgIjQjPG55qr7BgWrgVKrTdfgzL78v3ude+AgARG/humEtx/8cl1n3wIXRwIN8bG6bVfsc2dBEGbkI8+vzi6eV36RebrG87LilN7f+/d0i9CavF6xEi9XWRWdQQaSIHpn4tcbJxt2ryUOWInfhe8jwz6uQ306WqH7DZ60Mi390bzG//mMEHhKjF0ITFI40QIwftCdokAsy/8Yl6eYoDDQCGhF/69wQf7cY8x9sFYgV8RtqtkUSioz0cWb7y6g8QTD3BSWCsRaFEEbZ4OWCm/gu1cw9ob5FWDrXsEUnxgUTC3BoACzK+gsCDIkRfCHIWczUSHz98/k3Gca0aHC0BkmKXitzh5SxQwpkykK3ZcxqCxmNpyxmKDQT9cTo6chqW6vkCDfjegPw8OEvQI2MyQmk8MTWWsFNOBgm21gCtHWCviThu62GQKDtQK+VInQso9ZFDS+XYDP54anDLYKAV4dntMefpHJVoHYLsALD0doWwWi1qO5vn9TINaLV3SJtcMLT1R44NXFjApUtEEDwzwKVAaDUWEvCqIgCqIgCqIgCqIgCqIgCqIgCqIgCqKwHIURL5KgeWUqy4LmmoZPkZZ+n1Or/hwtQuX3H0hh37RTKQiCW5yfMT4s4aj3Ag68L+DY/xJ+/MD5T0B8AZVZLdLUGmsDAAAAAElFTkSuQmCC",
+        Image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAY1BMVEUAAAD////n5+dERESnp6fx8fGMjIxkZGSxsbHW1tZWVlbr6+u0tLScnJwMDAz09PRJSUlbW1svLy/c3NyTk5MlJSXExMS9vb2Dg4NOTk4UFBTLy8s0NDQeHh5wcHA9PT17e3tX6h+iAAACu0lEQVR4nO2c23qCMAyAG1QUy0FEBOY8vP9TDty+TSChWEbKRf7L2ZVfWtI2pSoA0NFBOeEQ6fryCiCM3Qg0xGGjELoTaAhBaYf3oCHWKnJroGqBlWsFR4+CIAjvku9vfnm7fzgTqIoEnnhrNxL5BV5YOzDYb6BFcOQ2SKFLkPMaHJOeAlx4FYK+AcCJ02CLGUDCqXBGFaDkM8hxA87egLdD3RJ8D4VPKMAnm8KOUuCbYa7dK5TuG6Ifnb/Z8HXHHAnPDWc2A6UKXOHGqFChBprRgIjQjPG55qr7BgWrgVKrTdfgzL78v3ude+AgARG/humEtx/8cl1n3wIXRwIN8bG6bVfsc2dBEGbkI8+vzi6eV36RebrG87LilN7f+/d0i9CavF6xEi9XWRWdQQaSIHpn4tcbJxt2ryUOWInfhe8jwz6uQ306WqH7DZ60Mi390bzG//mMEHhKjF0ITFI40QIwftCdokAsy/8Yl6eYoDDQCGhF/69wQf7cY8x9sFYgV8RtqtkUSioz0cWb7y6g8QTD3BSWCsRaFEEbZ4OWCm/gu1cw9ob5FWDrXsEUnxgUTC3BoACzK+gsCDIkRfCHIWczUSHz98/k3Gca0aHC0BkmKXitzh5SxQwpkykK3ZcxqCxmNpyxmKDQT9cTo6chqW6vkCDfjegPw8OEvQI2MyQmk8MTWWsFNOBgm21gCtHWCviThu62GQKDtQK+VInQso9ZFDS+XYDP54anDLYKAV4dntMefpHJVoHYLsALD0doWwWi1qO5vn9TINaLV3SJtcMLT1R44NXFjApUtEEDwzwKVAaDUWEvCqIgCqIgCqIgCqIgCqIgCqIgCqIgCqKwHIURL5KgeWUqy4LmmoZPkZZ+n1Or/hwtQuX3H0hh37RTKQiCW5yfMT4s4aj3Ag68L+DY/xJ+/MD5T0B8AZVZLdLUGmsDAAAAAElFTkSuQmCC",
         url: 'https://www.linkedin.com/in/krishna-aluri-b9613515a/'
     },
     {
-        Image:"data:image/png;base64,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",
+        Image: "data:image/png;base64,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",
         url: 'https://github.com/641krishna'
     },
     {
@@ -27,26 +27,26 @@ const contactObj = [
 
 function Contact() {
     return (
-      <section id="contact">
+        <section id="contact">
 
-        <div className={`${Styles.Contact}`}>
-            <div>
-                <h1 className="heading">
-                    Contact
-                </h1>
+            <div className={`${Styles.Contact}`}>
+                <div>
+                    <h1 className="heading">
+                        Contact
+                    </h1>
+                </div>
+                <div className={Styles.ContactSectionDiv}>
+                    {contactObj.map(item =>
+                        <a href={item.url} target="_blank">
+                            <div className={Styles.ContactSection}>
+                                <img id={Styles.icon} src={item.Image} alt="" />
+                                <p>{item.url}</p>
+                            </div>
+                        </a>
+                    )}
+                </div>
+
             </div>
-            <div className={Styles.ContactSectionDiv}>
-                {contactObj.map(item => 
-                <a href={item.url} target="_blank">
-                    <div className={Styles.ContactSection}>                        
-                            <img id={Styles.icon} src={item.Image} alt="" />
-                            <p>{item.url}</p>                      
-                    </div>  
-                    </a>  
-                )}
-            </div>
-                    
-        </div>
 
         </section>
     )
